@@ -34,7 +34,7 @@ input:focus {
   outline: none;
 }
 
-button {
+.btns {
   padding: 14px 28px;
   font-size: 18px;
   color: #fff;
@@ -44,15 +44,15 @@ button {
   cursor: pointer;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
   transition: background-color 0.3s, transform 0.3s;
-  margin-top: 15px; /* Space between buttons */
+  margin-top: 20px;
 }
 
-button:hover {
+.btns:hover {
   background-color: #ff3d58;
   transform: scale(1.1);
 }
 
-button:active {
+.btns:active {
   background-color: #d93856;
   transform: scale(1.05);
 }
