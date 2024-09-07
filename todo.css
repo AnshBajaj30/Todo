@@ -1,0 +1,93 @@
+/* Import a custom font and a stylish Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Apply a bold background with a gradient and a pattern */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  background-image: url('https://www.transparenttextures.com/patterns/diamond-solid-dark.png');
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  height: 100vh;
+  margin: 0;
+}
+
+input {
+  width: 350px;
+  padding: 15px;
+  font-size: 18px;
+  border: 2px solid #ff6f61;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s, box-shadow 0.3s;
+  background-color: #fff;
+}
+
+input:focus {
+  border-color: #ff3d58;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+button {
+  padding: 14px 28px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #ff6f61;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s, transform 0.3s;
+  margin: 0 15px; /* Space between buttons */
+}
+
+button:hover {
+  background-color: #ff3d58;
+  transform: scale(1.1);
+}
+
+button:active {
+  background-color: #d93856;
+  transform: scale(1.05);
+}
+
+#todos {
+  margin-top: 30px;
+  width: 380px;
+}
+
+#todos div {
+  background-color: #333;
+  color: #f1f1f1;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#todos h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+  color: #ff6f61;
+}
+
+#todos button {
+  background-color: #ff3d58;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+#todos button:hover {
+  background-color: #d93856;
+}
