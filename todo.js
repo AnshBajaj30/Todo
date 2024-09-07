@@ -1,8 +1,11 @@
 let todos = [];
 function addTodo() {
+  const inputField = document.querySelector("input");
+
   todos.push({
-    title: document.querySelector("input").value
+    title: inputField.value
   })
+  inputField.value="";
   render();
 }
 

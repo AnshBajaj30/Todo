@@ -1,9 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="todo.css">
+</head>
 <body>
-    <input type="text"></input>
-    <button onclick="addTodo()">Add todo!</button>
-    <button onclick="deleteLastTodo()">Delete Last todo!</button>
-    <button onclick="deleteFirstTodo()">Delete First todo!</button>
-    <div id="todos"></div>
-    <script src="todo.js">
-    </script>
-  </body>
+  <input type="text" placeholder="Add new todo...">
+  <button onclick="addTodo()">Add todo!</button>
+  <button onclick="deleteLastTodo()">Delete Last todo!</button>
+  <button onclick="deleteFirstTodo()">Delete First todo!</button>
+  <div id="todos"></div>
+  <script src="todo.js"></script>
+</body>
+</html>
